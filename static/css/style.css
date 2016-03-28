@@ -1,0 +1,211 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{background:#eee;}
+body{
+    background-color: #FFFFFF;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Microsoft YaHei", Georgia, Verdana, Arial, Helvetica, sans-serif, NSimSun, SimSun;
+    font-size: 16px;
+    color: #333333;
+    line-height: 1.6em;
+}
+
+/*header*/
+div.header{
+	height: 120px; padding-top:10px; padding-bottom:10px;
+}
+div.header span.school_logo{
+	padding-right:5px;
+	display:inline-block;
+	border-right:#CCC solid 1px;
+}
+
+
+/*左侧*/
+div#nav{
+	padding:0px;
+	background: #999;
+	border-top:#900 solid 2px;
+	
+	/*最小高度*/
+	min-height:500px;
+	_height:500px;
+	}
+#nav li{
+	
+	display:block;
+	border-left:2px solid #777;
+	border-right:2px solid #000;
+	/*padding-left:15px;*/
+	
+	margin:0px;
+}
+#nav li.selected{
+	font-weight:bold;
+	
+	background:#eee;
+	border-left:2px solid #000;
+	border-bottom:2px solid #000;
+	border-top:2px solid #000;
+	border-right:2px solid #eee;
+	padding-left:30px;
+	
+}
+#nav li a{
+	color:#000;
+}
+#nav li:hover{
+	background:#eee;
+	border-left:2px solid #000;
+	border-bottom:2px solid #000;
+	border-top:2px solid #000;
+	border-right:2px solid #eee;
+}
+#nav li#home:hover{
+	border-top:none;
+}
+
+#nav li span.text{
+	padding-left:5px;
+}
+
+/*首页 右侧*/
+div.con_right{
+	border-top:#900 solid 2px;
+	background:#eee;
+	
+	/*最小高度*/
+	min-height:500px;
+	_height:500px;
+}
+div.pagetitle{
+	border-bottom:#777 solid 1px;
+	font-weight:bold;
+	font-size:26px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+div.content_p{
+}
+div.content_p a{
+	background-image:url(../image/ExternalLink.gif);
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-right: 14px;
+	margin-right:5px;
+}
+	
+
+div#lib_img img{
+	border:solid 1px #777;
+	padding:5px;
+}
+
+
+div.subtitle{
+	border-bottom:#666 1px solid;
+	font-size:20px;
+	padding-top:20px;
+	padding-bottom:5px;
+}
+
+div.sub{
+	
+}
+.sub div.news_list{
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.sub .news_date{
+}
+.sub .news_title{
+	padding-left:20px;
+}
+.sub .news_title a{
+	background-image:url(../image/ExternalLink.gif);
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-right: 14px;
+	margin-right:5px;
+}
+
+
+.sub a{
+}
+.sub a:hover{
+	color:#000;
+}
+
+
+
+
+
+
+
+/*people*/
+div.sub div.people{
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+div.sub div.people a{
+	background-image:url(../image/ExternalLink.gif);
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-right: 14px;
+	margin-right:5px;
+}
+div.sub div.subtitle a.headeranchor{
+	display:none;
+}
+div.sub div.subtitle a.hover{
+	display:block;
+}
+
+/*previous_people*/
+div.previous_people{
+	padding-top:5px;
+	padding-bottom:5px;
+}
+div.previous_people span.name{
+	padding-left:0px;
+}
+div.previous_people span.name a{
+	background-image:url(../image/ExternalLink.gif);
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-right: 14px;
+	margin-right:5px;
+}
+
+/*links*/
+div.sub div.links{
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:0px;
+}
+div.sub div.links a{
+	background-image:url(../image/ExternalLink.gif);
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-right: 14px;
+	margin-right:5px;
+}
+
+
+/*works*/
+div.row div.work_list{
+	padding-top:5px;
+	padding-top:10px;
+}
+
+/*底部*/
+div.footer{
+	background:#eee;
+	border-top:#777 solid 1px;
+	padding-top:20px;
+	padding-bottom:20px;
+	text-align:center;
+}
